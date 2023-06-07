@@ -1,0 +1,45 @@
+.contact{
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  padding: 30px;
+
+
+}
+.cantact_form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.cantact_form > input{
+  width: 400px;
+  height: 40px;
+  padding: 3px;
+  border: 1px saddlebrown solid;
+}
+.contact_text{
+  width: 50%;
+
+}
+.cantact_form > textarea{
+  padding: 20px;
+  resize: none;
+  border: 1px saddlebrown solid;
+}
+.cantact_form > button{
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: brown;
+  border: none;
+  outline: none;
+  border: 1px saddlebrown solid;
+}
+.cantact_form > button:hover{
+  background-color: brown !important;
+  color: #fff;
+}

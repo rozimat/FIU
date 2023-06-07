@@ -1,0 +1,56 @@
+.about{
+  width: 100%;
+  height: 700px;
+  background-color: #ffff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+
+}
+.about_img-wrap{
+  width: 50%;
+  height: 100%;
+
+
+}
+.about_right{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-top: 200px;
+
+
+
+}
+.about_right-heading{
+  font-size: 25px;
+  margin-bottom: 15px;
+ 
+
+}
+.about_right-text{
+  width: 500px;
+  margin-bottom: 30px;
+
+}
+.about_contact{
+  width: 150px;
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px saddlebrown solid;
+  color: saddlebrown;
+}
+.about_contact:hover{
+
+  color: #ffffff;
+  background-color: saddlebrown;
+}
